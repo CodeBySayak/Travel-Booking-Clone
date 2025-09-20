@@ -1,0 +1,162 @@
+body{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(28, 147, 232);
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(107, 185, 233);
+    color: beige;
+}
+.searchh{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.destinations{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.box1{
+    background-image: url("https://i.pinimg.com/736x/35/0c/4e/350c4e03fcf0d6eff10ad1d502d69247.jpg");
+    background-size: contain;
+    color: aliceblue;
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box2{
+    background-image: url("https://i.pinimg.com/1200x/d1/80/95/d18095e2d4de3ab6737d028f4e1484ed.jpg");
+    background-size: contain;
+    color: rgb(224, 224, 150);    
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box3{
+    background-image: url("https://i.pinimg.com/736x/d0/25/9d/d0259d6b70e19f2a0daf6a4d7557b9d7.jpg");
+    background-size: contain;
+    color: rgb(158, 234, 158);    
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box4{
+    background-image: url("https://i.pinimg.com/1200x/7c/f9/a4/7cf9a4e798828e604ba5bc7f3ef2bec4.jpg");
+    background-size: contain;
+    color: aliceblue;    
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box5{
+    background-image: url("https://i.pinimg.com/736x/c5/6e/ad/c56eadfcdabbc17a3527e533c694592b.jpg");
+    background-size: contain;
+    color: rgb(195, 104, 234);      
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box6{
+    background-image: url("https://i.pinimg.com/1200x/a0/18/9e/a0189ed6bc2499780c70d684289bb357.jpg");
+    background-size: contain;
+    color: rgb(235, 99, 99);  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box7{
+    background-image: url("https://i.pinimg.com/1200x/77/38/e3/7738e39271a702d5928c165eb66cddee.jpg");
+    background-size: contain;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box8{
+    background-image: url("https://i.pinimg.com/1200x/e1/f4/82/e1f482d1ba105d6a39a33102b4f86195.jpg");
+    background-size: contain;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box9{
+    background-image: url("https://i.pinimg.com/1200x/3a/16/4a/3a164aa407a1e8163c846ffee442312f.jpg");
+    background-size: contain;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box10{
+    background-image: url("https://i.pinimg.com/736x/ff/1c/80/ff1c80add373490ef3a33f737481e835.jpg");
+    background-size: contain;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box11{
+    background-image: url("https://i.pinimg.com/736x/d5/ca/3a/d5ca3ade655af2547a3c7d3660702cf7.jpg");
+    background-size: contain;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+.box12{
+    background-image: url("https://i.pinimg.com/736x/1d/34/44/1d34444fed26862d760dcb9f30088442.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;  
+    border: 1px solid rgb(17, 120, 236);
+    padding: 40px;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+}
+th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+}
+form{
+    padding: 20px;
+    width: 45%;
+    background-color: rgb(177, 245, 222);
+}
+.info{
+    width: 40%;
+    padding: 20px;
+    background-color: bisque;
+}
+
+footer{
+    background-color: rgb(28, 147, 232);
+    color: white;
+    text-align: center;
+}
